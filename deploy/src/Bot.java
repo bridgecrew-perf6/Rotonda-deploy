@@ -72,9 +72,9 @@ public class Bot extends TelegramLongPollingBot  {
             case "/start":
                 sendMsg(message,"Hello! I am Rotonda which can provide real-time traffic "
                 		+ "information of 3 major cross-harbour tunnel for you. "
-                		+ "You can type the tunnel name first, which are ¡¥eastern¡¦, "
-                		+ "¡¥western¡¦, or ¡¥hunghom¡¦. Then, followed by typing the "
-                		+ "direction of destination, ¡¥south¡¦ or ¡¥north¡¦. "
+                		+ "You can type the tunnel name first, which are Â¡Â¥easternÂ¡Â¦, "
+                		+ "Â¡Â¥westernÂ¡Â¦, or Â¡Â¥hunghomÂ¡Â¦. Then, followed by typing the "
+                		+ "direction of destination, Â¡Â¥southÂ¡Â¦ or Â¡Â¥northÂ¡Â¦. "
                 		+ "With two inputs, I will show the latest updates for you!");
                 break;
            
@@ -180,6 +180,6 @@ public class Bot extends TelegramLongPollingBot  {
     }
 
     public String getBotToken() {
-        return "1426931518:AAEJ6qHBM_1HBuV396tmEHc2Tll6G72isGI" ;
+        return _BotToken;
     }
 }
