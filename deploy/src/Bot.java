@@ -180,6 +180,6 @@ public class Bot extends TelegramLongPollingBot  {
     }
 
     public String getBotToken() {
-        return _BotToken;
+        return ${{ secrets.[_BotToken] }};
     }
 }
